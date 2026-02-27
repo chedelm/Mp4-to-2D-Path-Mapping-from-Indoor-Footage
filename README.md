@@ -1,8 +1,8 @@
 # Video-to-2D Mapping Prototype (Computer Vision)
 
 ## Overview
-A small computer vision prototype that explores how **video footage** can be converted into a **rough 2D spatial representation**.  
-The project focuses on demonstrating a **basic pipeline**, not mapping accuracy.
+A small beginner computer vision prototype that explores how video footage can be converted into a rough 2D spatial representation.  
+The project focuses on demonstrating a basic pipeline, not mapping accuracy.
 
 ---
 
@@ -16,24 +16,12 @@ Given a short indoor video, the system:
 
 ---
 
-## Project Structure
-video_to_map_prototype/
-├── main.py
-├── requirements.txt
-├── video/
-│ └── test.mp4
-├── src/
-│ ├── config.py
-│ ├── video_io.py
-│ ├── motion.py
-│ ├── mapper.py
-│ └── viz.py
-└── outputs/
-
----
-
 ## Requirements
 - Python 3.9+
 - OpenCV
 - NumPy
 - Matplotlib
+
+## How to run:
+
+From project root, type python main.py --video <path location of the video>
